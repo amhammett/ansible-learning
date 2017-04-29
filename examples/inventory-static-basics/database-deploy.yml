@@ -1,0 +1,8 @@
+---
+- hosts: db
+
+  gather_facts: no
+
+  tasks: 
+    - debug: msg="connected to {{inventory_hostname}}"
+      delegate_to: localhost
