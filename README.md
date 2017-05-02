@@ -19,18 +19,18 @@ which provides information on common setup.
 
 Describing various topics
 
-| Topics |
-| ------ |
-| [getting started](docs/getting-started.md) |
-| [inventory](docs/inventory.md) |
-| [modules and libraries](docs/modules.md) |
+| Topics | Description |
+| ------ | ----------- |
+| [Getting Started](docs/getting-started.md) | How to configure your environment to use ansible
+| [Inventory](docs/inventory.md) | Static and dynamic inventories |
+| [modules and libraries](docs/modules.md) | Using core and community modules |
 
 
 ### Examples
 
 A few examples put together to show implementation options or comparisons.
 
-| Examples |
-| -------- |
-| [files and folders](examples/files-and-folders) |
-| [inventory static basics](examples/inventory-static-basics) |
+| Examples | Description |
+| -------- | ----------- |
+| [files and folders](examples/files-and-folders) | A comparison between the shell and file module for folder structures |
+| [inventory static basics](examples/inventory-static-basics) | Introduction to static inventory |
