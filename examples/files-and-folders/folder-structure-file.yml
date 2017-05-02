@@ -1,0 +1,29 @@
+---
+- hosts: localhost
+
+  connection:   local
+  gather_facts: no
+
+  vars:
+    workspace:   "{{playbook_dir}}/tmp/file"
+    test_file:   "test.txt"
+    test_string: "this is not a test"
+
+  tasks:
+    - name: create workspace
+      file: path="{{workspace}}" state="directory"
+
+    - name: touch file
+      file: path="{{workspace}}/file.touch" state="touch"
+
+    - name: add content to file
+      copy: dest="{{workspace}}/{{test_file}}" content="{{test_string}}"
+
+    - name: read file content
+      shell: >
+        cat {{workspace}}/{{test_file}}
+      changed_when: false
+      register: shell_test_string
+
+    - name: display file content
+      debug: msg="{{test_file}} contains '{{shell_test_string.stdout}}'"
