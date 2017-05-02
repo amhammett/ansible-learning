@@ -20,6 +20,7 @@ which provides information on common setup.
 Describing various topics
 
 | Topics |
+| ------ |
 | [getting started](docs/getting-started.md) |
 | [inventory](docs/inventory.md) |
 | [modules and libraries](docs/modules.md) |
@@ -30,5 +31,6 @@ Describing various topics
 A few examples put together to show implementation options or comparisons.
 
 | Examples |
+| -------- |
 | [files and folders](examples/files-and-folders) |
 | [inventory static basics](examples/inventory-static-basics) |
