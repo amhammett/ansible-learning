@@ -15,15 +15,15 @@ and [modules](http://docs.ansible.com/ansible/modules_by_category.html).
 There are also [example playbooks](https://github.com/ansible/ansible-examples)
 which provides information on common setup. 
 
-### Documents
+### wiki
 
 Describing various topics
 
 | Topics | Description |
 | ------ | ----------- |
-| [Getting Started](docs/getting-started.md) | How to configure your environment to use ansible
-| [Inventory](docs/inventory.md) | Static and dynamic inventories |
-| [modules and libraries](docs/modules.md) | Using core and community modules |
+| [Getting Started](wiki/getting-started.md) | How to configure your environment to use ansible
+| [Inventory](wiki/inventory.md) | Static and dynamic inventories |
+| [modules and libraries](wiki/modules.md) | Using core and community modules |
 
 
 ### Examples
