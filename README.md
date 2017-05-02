@@ -15,7 +15,7 @@ and [modules](http://docs.ansible.com/ansible/modules_by_category.html).
 There are also [example playbooks](https://github.com/ansible/ansible-examples)
 which provides information on common setup. 
 
-### wiki
+### Wiki Pages
 
 Describing various topics
 
