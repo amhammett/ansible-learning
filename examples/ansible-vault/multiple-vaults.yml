@@ -1,0 +1,17 @@
+---
+- name: generate vault files for other repositories
+  hosts: localhost
+
+  connection:   local
+  gather_facts: no
+
+  vars_files:
+    - vars/secrets.yml
+
+  vars:
+    workspace:    "{{playbook_dir}}/.secrets"
+
+  tasks:
+    - name: generate vault secrets
+      copy: dest="{{workspace}}/{{item.f}}" content="{{item.v}}" mode=0600
+      with_items: "{{vault_passwords}}"

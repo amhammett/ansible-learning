@@ -34,3 +34,4 @@ A few examples put together to show implementation options or comparisons.
 | -------- | ----------- |
 | [files and folders](examples/files-and-folders) | A comparison between the shell and file module for folder structures |
 | [inventory static basics](examples/inventory-static-basics) | Introduction to static inventory |
+| [ansible-vault](examples/ansible-vault) | Managing secrets with ansible-vault |
