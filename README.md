@@ -9,7 +9,7 @@ with Ansible learning.
 Before you begin you will want to read up on [YAML syntax](http://docs.ansible.com/ansible/YAMLSyntax.html).
 
 There are a lot of resources online. I primarily use the [ansible docs](http://docs.ansible.com/ansible/index.html)
-to reference ansible. It lists infomration on [playbooks](http://docs.ansible.com/ansible/playbooks.html)
+to reference ansible. It lists information on [playbooks](http://docs.ansible.com/ansible/playbooks.html)
 and [modules](http://docs.ansible.com/ansible/modules_by_category.html).
 
 There are also [example playbooks](https://github.com/ansible/ansible-examples)
